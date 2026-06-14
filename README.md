@@ -534,6 +534,5 @@ Future enhancements may include:
 This project is designed to show how marketing operations work can be structured like a technical data system.
 
 The goal is to demonstrate that growth work is not only campaign execution. It can include data architecture, QA logic, record matching, exception handling, reporting workflows, and business-development systems.
-
 Update README with actual synthetic output metrics
 ````
