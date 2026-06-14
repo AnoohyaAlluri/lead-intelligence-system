@@ -1,0 +1,8 @@
+exception_id,lead_id,exception_type,match_issue,review_priority,recommended_next_step,qa_status,public_safe_notes
+EX-0001,L-0001,Duplicate Review,Possible duplicate record,Medium,Route to exception queue before applying match,REVIEW,Synthetic record requires review before classification
+EX-0002,L-0009,Source Attribution Review,Unknown or missing source,Low,Route to exception queue before applying match,REVIEW,Synthetic record requires review before classification
+EX-0003,L-0016,Duplicate Review,Possible duplicate record,Medium,Route to exception queue before applying match,REVIEW,Synthetic record requires review before classification
+EX-0004,L-0019,Missing Contact Review,Missing phone; Unknown or missing source,Medium,Route to exception queue before applying match,REVIEW,Synthetic record requires review before classification
+EX-0005,L-0020,Missing Contact Review,Invalid email format,Medium,Route to exception queue before applying match,REVIEW,Synthetic record requires review before classification
+EX-0006,L-0021,Missing Contact Review,Invalid phone format,Medium,Route to exception queue before applying match,REVIEW,Synthetic record requires review before classification
+EX-0007,L-0024,Client/Profile Review,Record passed basic QA checks,High,Route to exception queue before applying match,REVIEW,Synthetic record requires review before classification
