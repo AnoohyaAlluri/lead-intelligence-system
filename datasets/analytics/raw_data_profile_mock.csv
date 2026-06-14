@@ -1,0 +1,3 @@
+dataset_name,file_name,total_rows,total_columns,missing_value_count,duplicate_id_count,blank_required_id_count
+raw_marketing_leads,raw_marketing_leads_mock.csv,25,12,2,0,0
+raw_client_records,raw_client_records_mock.csv,45,9,0,0,0
