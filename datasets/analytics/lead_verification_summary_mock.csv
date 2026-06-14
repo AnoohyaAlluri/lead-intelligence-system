@@ -1,0 +1,2 @@
+total_leads,total_client_records,high_confidence_matches,medium_confidence_matches,low_confidence_matches,no_match_records,exception_records,exception_queue_records,duplicate_leads_flagged,invalid_email_count,invalid_phone_count,qa_pass_count,qa_review_count,qa_fail_count,verified_match_rate,exception_review_rate,qa_pass_rate
+25,45,17,0,0,1,7,7,2,1,2,17,8,0,68.0,28.0,68.0
