@@ -1,7 +1,3 @@
-I removed the extra sections that make the repo look overbuilt before the pipeline is finished, especially long run instructions, too many role tables, and detailed planned outputs. This keeps the README professional, clean, and safe while the repo is still in progress. Your earlier version had the right portfolio style but was longer than needed for the current stage. 
-
-Copy from here:
-
 # 🧠 Lead Intelligence System
 
 ![Python](https://img.shields.io/badge/Python-Data%20Pipeline-blue)
