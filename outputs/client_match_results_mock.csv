@@ -1,0 +1,26 @@
+lead_id,client_id,match_status,match_confidence,email_match,phone_match,name_similarity_score,city_match,property_type_match,units_bucket_match,recommended_action,qa_status,qa_notes
+L-0001,C-0001,Exception,100,True,True,100.0,True,True,True,Route to exception queue before applying match,REVIEW,Possible duplicate record
+L-0002,C-0002,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0003,C-0003,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0004,C-0004,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0005,C-0005,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0006,C-0006,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0007,C-0007,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0008,C-0008,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0009,C-0018,Exception,100,True,True,100.0,True,True,True,Route to exception queue before applying match,REVIEW,Unknown or missing source
+L-0010,C-0019,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0011,C-0009,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0012,C-0010,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0013,C-0011,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0014,C-0012,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0015,C-0020,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0016,C-0001,Exception,100,True,True,100.0,True,True,True,Route to exception queue before applying match,REVIEW,Possible duplicate record
+L-0017,C-0013,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0018,C-0014,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0019,C-0025,Exception,65,True,False,100.0,True,True,True,Route to exception queue before applying match,REVIEW,Missing phone; Unknown or missing source
+L-0020,C-0022,Exception,60,False,True,100.0,True,True,True,Route to exception queue before applying match,REVIEW,Invalid email format
+L-0021,C-0023,Exception,65,True,False,100.0,True,True,True,Route to exception queue before applying match,REVIEW,Invalid phone format
+L-0022,C-0015,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
+L-0023,C-0027,No Match,10,False,False,0.0,True,True,True,Keep unmatched until stronger evidence is available,REVIEW,Missing name
+L-0024,C-0016,Exception,100,True,True,100.0,True,True,True,Route to exception queue before applying match,REVIEW,Record passed basic QA checks
+L-0025,C-0017,High Confidence Match,100,True,True,100.0,True,True,True,Include in verified reporting,PASS,Record passed basic QA checks
