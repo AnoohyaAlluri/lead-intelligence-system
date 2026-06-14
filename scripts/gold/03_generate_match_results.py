@@ -24,6 +24,11 @@ MATCH_RESULTS_PATH = BASE_DIR / "outputs" / "client_match_results_mock.csv"
 EXCEPTION_QUEUE_PATH = BASE_DIR / "outputs" / "exception_queue_mock.csv"
 
 
+def string_to_bool(value) -> bool:
+    """Convert common string boolean values to actual booleans."""
+    return str(value).strip().lower() in ["true", "1", "yes"]
+
+
 def similarity_score(left_value: str, right_value: str) -> float:
     """Return a simple name similarity score from 0 to 100."""
     left = str(left_value or "").strip().lower()
@@ -103,10 +108,10 @@ def detect_conflict(lead: pd.Series, best_match: dict) -> bool:
     if best_match["client_qa_status"] != "PASS":
         return True
 
-    if bool(lead["duplicate_flag"]):
+    if string_to_bool(lead["duplicate_flag"]):
         return True
 
-    if bool(best_match["client_duplicate_flag"]):
+    if string_to_bool(best_match["client_duplicate_flag"]):
         return True
 
     if best_match["client_status_clean"] in ["Review", "Duplicate Review"]:
@@ -156,7 +161,7 @@ def identify_exception_type(lead: pd.Series, match_row: dict) -> str:
     """Assign a public-safe exception type."""
     qa_notes = str(lead.get("qa_notes", "")).lower()
 
-    if "duplicate" in qa_notes or bool(lead.get("duplicate_flag", False)):
+    if "duplicate" in qa_notes or string_to_bool(lead.get("duplicate_flag", False)):
         return "Duplicate Review"
 
     if "email" in qa_notes or "phone" in qa_notes or "name" in qa_notes:
@@ -187,8 +192,8 @@ def assign_review_priority(exception_type: str, score: int) -> str:
 
 def build_match_results() -> tuple[pd.DataFrame, pd.DataFrame]:
     """Build match results and exception queue from cleaned synthetic datasets."""
-    leads = pd.read_csv(CLEANED_LEADS_PATH)
-    clients = pd.read_csv(CLEANED_CLIENTS_PATH)
+    leads = pd.read_csv(CLEANED_LEADS_PATH, dtype=str).fillna("")
+    clients = pd.read_csv(CLEANED_CLIENTS_PATH, dtype=str).fillna("")
 
     match_rows = []
     exception_rows = []
