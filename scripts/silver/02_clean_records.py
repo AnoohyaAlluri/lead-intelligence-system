@@ -146,7 +146,7 @@ def build_qa_status_and_notes(row, id_column, name_column, email_column, phone_c
 
 def clean_marketing_leads() -> pd.DataFrame:
     """Clean the synthetic marketing lead dataset."""
-    df = pd.read_csv(RAW_LEADS_PATH)
+    df = pd.read_csv(RAW_LEADS_PATH, dtype=str).fillna("")
 
     df["lead_id"] = df["lead_id"].apply(clean_text)
     df["lead_source_clean"] = df["lead_source"].apply(clean_text)
@@ -206,7 +206,7 @@ def clean_marketing_leads() -> pd.DataFrame:
 
 def clean_client_records() -> pd.DataFrame:
     """Clean the synthetic client-style record dataset."""
-    df = pd.read_csv(RAW_CLIENTS_PATH)
+    df = pd.read_csv(RAW_CLIENTS_PATH, dtype=str).fillna("")
 
     df["client_id"] = df["client_id"].apply(clean_text)
     df["client_name_clean"] = df["client_name"].apply(clean_text)
