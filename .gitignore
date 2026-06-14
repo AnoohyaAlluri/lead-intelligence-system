@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Private or raw files
+private/
+confidential/
+real_data/
+internal_exports/
+*.xlsx
+*.xlsm
+*.xls
+*.zip
+
+# Environment variables and keys
+.env
+*.key
+*.pem
+credentials.json
+token.json
+
+# Local notes
+scratch/
+notes_private/
