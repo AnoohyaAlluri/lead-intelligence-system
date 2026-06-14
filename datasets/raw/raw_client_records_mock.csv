@@ -1,0 +1,46 @@
+client_id,client_name,client_email,client_phone,property_city,property_type,managed_units,client_status,record_source
+C-0001,Jordan Blake,jordan.blake@example.com,3105550148,Santa Monica,Multifamily,12,Active,Client System
+C-0002,Morgan Chen,morgan.chen@example.com,3235550194,Los Angeles,Single Family,1,Active,Client System
+C-0003,Taylor Brooks,taylor.brooks@example.com,4245550177,Beverly Hills,Condo,2,Active,Client System
+C-0004,Riley Morgan,riley.morgan@example.com,3105550129,Santa Monica,Single Family,1,Active,Client System
+C-0005,Cameron Lee,cameron.lee@example.com,2135550188,West Hollywood,Multifamily,8,Active,Client System
+C-0006,Avery Patel,avery.patel@example.com,4245550165,Culver City,Condo,3,Inactive,Client System
+C-0007,Quinn Rivera,quinn.rivera@example.com,3105550133,Brentwood,Multifamily,16,Active,Client System
+C-0008,Casey Nguyen,casey.nguyen@example.com,3235550167,Los Angeles,Apartment,24,Active,Client System
+C-0009,Jamie Carter,jamie.carter@example.com,2135550115,Venice,Multifamily,10,Active,Client System
+C-0010,Parker Singh,parker.singh@example.com,3105550117,Santa Monica,Condo,2,Active,Client System
+C-0011,Reese Kim,reese.kim@example.com,3235550120,Los Angeles,Multifamily,18,Active,Client System
+C-0012,Alex Monroe,alex.monroe@example.com,4245550181,Beverly Hills,Single Family,1,Active,Client System
+C-0013,Harper Ellis,harper.ellis@example.com,3235550149,Culver City,Apartment,20,Active,Client System
+C-0014,Logan Price,logan.price@example.com,4245550112,Brentwood,Single Family,1,Active,Client System
+C-0015,Kendall Moore,kendall.moore@example.com,3105550171,Malibu,Multifamily,6,Active,Client System
+C-0016,Peyton Clark,peyton.clark@example.com,4245550191,Beverly Hills,Multifamily,9,Active,Client System
+C-0017,Dakota Green,dakota.green@example.com,3105550162,Santa Monica,Single Family,1,Prospect,Client System
+C-0018,Skyler Adams,skyler.adams@example.com,3105550198,Santa Monica,Single Family,1,Prospect,Client System
+C-0019,Drew Wilson,drew.wilson@example.com,4245550142,Malibu,Single Family,1,Inactive,Client System
+C-0020,Sam Taylor,sam.taylor@example.com,3105550154,West Hollywood,Condo,4,Prospect,Client System
+C-0021,Jordan Blake,jordan.blake@example.com,3105550148,Santa Monica,Multifamily,12,Duplicate Review,Client System
+C-0022,Emerson Reed,emerson.reed@example.com,3105550182,Santa Monica,Condo,2,Prospect,Client System
+C-0023,Finley Scott,finley.scott@example.com,4245550134,Venice,Single Family,1,Prospect,Client System
+C-0024,Peyton Clarke,peyton.clarke@example.com,4245550191,Beverly Hills,Multifamily,9,Review,Client System
+C-0025,Rowan Hayes,rowan.hayes@example.com,3235550180,Los Angeles,Multifamily,14,Review,Client System
+C-0026,Brooklyn Lane,brooklyn.lane@example.com,3105550101,Santa Monica,Apartment,30,Active,Client System
+C-0027,Elliot Grant,elliot.grant@example.com,3235550102,Los Angeles,Condo,2,Active,Client System
+C-0028,Hayden Ford,hayden.ford@example.com,4245550103,Brentwood,Single Family,1,Prospect,Client System
+C-0029,Marley Stone,marley.stone@example.com,3105550104,Venice,Multifamily,7,Active,Client System
+C-0030,Charlie Young,charlie.young@example.com,2135550105,West Hollywood,Apartment,15,Inactive,Client System
+C-0031,Sage Bennett,sage.bennett@example.com,4245550106,Culver City,Condo,3,Active,Client System
+C-0032,Rowan Bell,rowan.bell@example.com,3105550107,Malibu,Single Family,1,Prospect,Client System
+C-0033,Blair Foster,blair.foster@example.com,3235550108,Los Angeles,Multifamily,22,Active,Client System
+C-0034,Devon Hughes,devon.hughes@example.com,4245550109,Beverly Hills,Condo,4,Active,Client System
+C-0035,Arden Ross,arden.ross@example.com,3105550110,Santa Monica,Multifamily,11,Prospect,Client System
+C-0036,Kai Walker,kai.walker@example.com,2135550111,West Hollywood,Single Family,1,Active,Client System
+C-0037,Micah Reed,micah.reed@example.com,4245550113,Brentwood,Condo,2,Review,Client System
+C-0038,Shawn Miller,shawn.miller@example.com,3105550114,Venice,Apartment,19,Active,Client System
+C-0039,Noa Bennett,noa.bennett@example.com,3235550116,Los Angeles,Single Family,1,Prospect,Client System
+C-0040,Ellis Carter,ellis.carter@example.com,4245550118,Culver City,Multifamily,13,Active,Client System
+C-0041,Remy Cooper,remy.cooper@example.com,3105550119,Santa Monica,Condo,2,Inactive,Client System
+C-0042,Ari Collins,ari.collins@example.com,2135550121,Malibu,Single Family,1,Active,Client System
+C-0043,Frankie James,frankie.james@example.com,4245550122,Beverly Hills,Multifamily,10,Prospect,Client System
+C-0044,Tatum Gray,tatum.gray@example.com,3105550123,Brentwood,Apartment,18,Active,Client System
+C-0045,Robin Hayes,robin.hayes@example.com,3235550124,Los Angeles,Condo,3,Review,Client System
