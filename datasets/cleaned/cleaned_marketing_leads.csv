@@ -1,0 +1,26 @@
+lead_id,lead_created_date,lead_source_clean,source_category_clean,contact_name_clean,contact_email_clean,contact_phone_clean,property_city_clean,property_type_clean,estimated_units,units_bucket,lead_status,duplicate_flag,email_valid_flag,phone_valid_flag,qa_status,qa_notes
+L-0001,2026-01-08,Website Form,Inbound Web,Jordan Blake,jordan.blake@example.com,3105550148,Santa Monica,Multifamily,12,11-20 Units,New,True,True,True,REVIEW,Possible duplicate record
+L-0002,2026-01-11,Google Ads,Paid Search,Morgan Chen,morgan.chen@example.com,3235550194,Los Angeles,Single Family,1,1 Unit,New,False,True,True,PASS,Record passed basic QA checks
+L-0003,2026-01-14,Referral,Referral Network,Taylor Brooks,taylor.brooks@example.com,4245550177,Beverly Hills,Condo,2,2-4 Units,Contacted,False,True,True,PASS,Record passed basic QA checks
+L-0004,2026-01-18,Direct Mail,Offline Campaign,Riley Morgan,riley.morgan@example.com,3105550129,Santa Monica,Single Family,1,1 Unit,New,False,True,True,PASS,Record passed basic QA checks
+L-0005,2026-01-22,Organic Search,SEO,Cameron Lee,cameron.lee@example.com,2135550188,West Hollywood,Multifamily,8,5-10 Units,Contacted,False,True,True,PASS,Record passed basic QA checks
+L-0006,2026-01-29,Yelp,Local Directory,Avery Patel,avery.patel@example.com,4245550165,Culver City,Condo,3,2-4 Units,New,False,True,True,PASS,Record passed basic QA checks
+L-0007,2026-02-02,Website Form,Inbound Web,Quinn Rivera,quinn.rivera@example.com,3105550133,Brentwood,Multifamily,16,11-20 Units,Qualified,False,True,True,PASS,Record passed basic QA checks
+L-0008,2026-02-06,Google Ads,Paid Search,Casey Nguyen,casey.nguyen@example.com,3235550167,Los Angeles,Apartment,24,21+ Units,New,False,True,True,PASS,Record passed basic QA checks
+L-0009,2026-02-09,Unknown,Unknown,Skyler Adams,skyler.adams@example.com,3105550198,Santa Monica,Single Family,1,1 Unit,Review,False,True,True,REVIEW,Unknown or missing source
+L-0010,2026-02-13,Referral,Referral Network,Drew Wilson,drew.wilson@example.com,4245550142,Malibu,Single Family,1,1 Unit,Contacted,False,True,True,PASS,Record passed basic QA checks
+L-0011,2026-02-19,Organic Search,SEO,Jamie Carter,jamie.carter@example.com,2135550115,Venice,Multifamily,10,5-10 Units,Qualified,False,True,True,PASS,Record passed basic QA checks
+L-0012,2026-02-22,Website Form,Inbound Web,Parker Singh,parker.singh@example.com,3105550117,Santa Monica,Condo,2,2-4 Units,New,False,True,True,PASS,Record passed basic QA checks
+L-0013,2026-03-01,Google Ads,Paid Search,Reese Kim,reese.kim@example.com,3235550120,Los Angeles,Multifamily,18,11-20 Units,Contacted,False,True,True,PASS,Record passed basic QA checks
+L-0014,2026-03-05,Direct Mail,Offline Campaign,Alex Monroe,alex.monroe@example.com,4245550181,Beverly Hills,Single Family,1,1 Unit,New,False,True,True,PASS,Record passed basic QA checks
+L-0015,2026-03-08,Yelp,Local Directory,Sam Taylor,sam.taylor@example.com,3105550154,West Hollywood,Condo,4,2-4 Units,Review,False,True,True,PASS,Record passed basic QA checks
+L-0016,2026-03-11,Website Form,Inbound Web,Jordan Blake,jordan.blake@example.com,3105550148,Santa Monica,Multifamily,12,11-20 Units,Duplicate,True,True,True,REVIEW,Possible duplicate record
+L-0017,2026-03-15,Organic Search,SEO,Harper Ellis,harper.ellis@example.com,3235550149,Culver City,Apartment,20,11-20 Units,New,False,True,True,PASS,Record passed basic QA checks
+L-0018,2026-03-18,Google Ads,Paid Search,Logan Price,logan.price@example.com,4245550112,Brentwood,Single Family,1,1 Unit,Qualified,False,True,True,PASS,Record passed basic QA checks
+L-0019,2026-03-22,Unknown,Unknown,Rowan Hayes,rowan.hayes@example.com,,Los Angeles,Multifamily,14,11-20 Units,Review,False,True,False,REVIEW,Missing phone; Unknown or missing source
+L-0020,2026-03-27,Website Form,Inbound Web,Emerson Reed,invalid-email,3105550182,Santa Monica,Condo,2,2-4 Units,Review,False,False,True,REVIEW,Invalid email format
+L-0021,2026-04-02,Referral,Referral Network,Finley Scott,finley.scott@example.com,555,Venice,Single Family,1,1 Unit,Review,False,True,False,REVIEW,Invalid phone format
+L-0022,2026-04-05,Direct Mail,Offline Campaign,Kendall Moore,kendall.moore@example.com,3105550171,Malibu,Multifamily,6,5-10 Units,New,False,True,True,PASS,Record passed basic QA checks
+L-0023,2026-04-09,Website Form,Inbound Web,,no.name@example.com,3235550176,Los Angeles,Condo,3,2-4 Units,Review,False,True,True,REVIEW,Missing name
+L-0024,2026-04-12,Organic Search,SEO,Peyton Clark,peyton.clark@example.com,4245550191,Beverly Hills,Multifamily,9,5-10 Units,Qualified,False,True,True,PASS,Record passed basic QA checks
+L-0025,2026-04-16,Google Ads,Paid Search,Dakota Green,dakota.green@example.com,3105550162,Santa Monica,Single Family,1,1 Unit,New,False,True,True,PASS,Record passed basic QA checks
