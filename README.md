@@ -45,6 +45,8 @@ The goal is to show practical experience across marketing analytics, data operat
 
 ## 📊 Synthetic Output Metrics
 
+![Lead Intelligence Synthetic KPI Summary](images/lead-intelligence-synthetic-kpi-summary%20%282%29.png)
+
 The pipeline currently includes completed synthetic output files generated from mock lead and client-style records.
 
 | Metric | Synthetic Output |
