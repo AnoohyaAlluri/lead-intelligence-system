@@ -165,6 +165,8 @@ My responsibilities represented in this project include:
 
 ## 🏗️ Data Architecture
 
+![Lead Intelligence System Architecture](images/lead-intelligence-system-architecture.png)
+
 | Layer        | Folder                | Purpose                                                |
 | ------------ | --------------------- | ------------------------------------------------------ |
 | 🥉 Bronze    | `datasets/raw/`       | Synthetic raw marketing leads and client-style records |
